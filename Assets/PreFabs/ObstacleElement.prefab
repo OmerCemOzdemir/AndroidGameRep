@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 5870895920175649956}
   - component: {fileID: 6643813957319651222}
   m_Layer: 0
-  m_Name: Road
-  m_TagString: Road
+  m_Name: Obstacle
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 12, y: 1, z: 12}
+  m_LocalScale: {x: 1, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3161194631105882598}
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6fde5e7e3010e324fabf4213f8556743, type: 2}
+  - {fileID: 2100000, guid: 3f5ed7d3bc424d7458c162de012f788e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,7 +101,7 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -146,8 +146,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3161194631105882598}
   m_Layer: 0
-  m_Name: DuplicateEnviroment
-  m_TagString: Road
+  m_Name: ObstacleElement
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
